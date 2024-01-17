@@ -1,4 +1,3 @@
-// cypress/integration/counter.spec.js
 describe('Counter App', () => {
   it('should display the initial counter value', () => {
     cy.visit('/');
