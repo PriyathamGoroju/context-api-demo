@@ -1,0 +1,27 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contextDisplay{
+  h1{
+    color:darkblue;
+  }
+}
+.buttonsGroup{
+  display: flex;
+  gap: 4px;
+  button{
+    background-color: rgb(98, 98, 255);
+    color:white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border-style: hidden;
+  }
+  button:hover{
+    background-color: rgb(28, 28, 255);
+  }
+}
